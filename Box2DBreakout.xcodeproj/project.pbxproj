@@ -181,6 +181,8 @@
 		FD70FCCF17629677003487F7 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD70FCCE17629677003487F7 /* GLES-Render.mm */; };
 		FD70FCD217629677003487F7 /* PhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD70FCD117629677003487F7 /* PhysicsSprite.mm */; };
 		FD70FCD417629677003487F7 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = FD70FCD317629677003487F7 /* blocks.png */; };
+		FD772BD917629D4E009A98F0 /* ball-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = FD772BD717629D4E009A98F0 /* ball-hd.png */; };
+		FD772BDA17629D4E009A98F0 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = FD772BD817629D4E009A98F0 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -545,6 +547,8 @@
 		FD70FCD017629677003487F7 /* PhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsSprite.h; sourceTree = "<group>"; };
 		FD70FCD117629677003487F7 /* PhysicsSprite.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysicsSprite.mm; sourceTree = "<group>"; };
 		FD70FCD317629677003487F7 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		FD772BD717629D4E009A98F0 /* ball-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-hd.png"; sourceTree = "<group>"; };
+		FD772BD817629D4E009A98F0 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -623,6 +627,8 @@
 		FD70FABA17629673003487F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FD772BD717629D4E009A98F0 /* ball-hd.png */,
+				FD772BD817629D4E009A98F0 /* ball.png */,
 				FD70FABB17629673003487F7 /* Default.png */,
 				FD70FABD17629673003487F7 /* Default-Landscape~ipad.png */,
 				FD70FABF17629673003487F7 /* fps_images.png */,
@@ -1206,6 +1212,8 @@
 				FD70FAD317629673003487F7 /* iTunesArtwork in Resources */,
 				FD70FC1117629676003487F7 /* ChangeLog in Resources */,
 				FD70FCD417629677003487F7 /* blocks.png in Resources */,
+				FD772BD917629D4E009A98F0 /* ball-hd.png in Resources */,
+				FD772BDA17629D4E009A98F0 /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1472,6 +1480,7 @@
 				FD70FCD917629678003487F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
